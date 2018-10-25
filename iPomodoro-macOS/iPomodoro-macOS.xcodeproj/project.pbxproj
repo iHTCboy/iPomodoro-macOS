@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D0C2B722182128D002CA924 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 6D0C2B702182128D002CA924 /* LICENSE */; };
+		6D0C2B732182128D002CA924 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 6D0C2B712182128D002CA924 /* README.md */; };
 		6D20F997217B0651004A4ED1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D20F996217B0651004A4ED1 /* AppDelegate.swift */; };
 		6D20F999217B0651004A4ED1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D20F998217B0651004A4ED1 /* ViewController.swift */; };
 		6D20F99B217B0652004A4ED1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D20F99A217B0652004A4ED1 /* Assets.xcassets */; };
@@ -33,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6D0C2B702182128D002CA924 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = ../../LICENSE; sourceTree = "<group>"; };
+		6D0C2B712182128D002CA924 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../README.md; sourceTree = "<group>"; };
 		6D20F993217B0651004A4ED1 /* iPomodoro-macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iPomodoro-macOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D20F996217B0651004A4ED1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6D20F998217B0651004A4ED1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -101,6 +105,8 @@
 				6D20F99A217B0652004A4ED1 /* Assets.xcassets */,
 				6D20F99C217B0652004A4ED1 /* Main.storyboard */,
 				6D20F99F217B0652004A4ED1 /* Info.plist */,
+				6D0C2B702182128D002CA924 /* LICENSE */,
+				6D0C2B712182128D002CA924 /* README.md */,
 				6D20F9A0217B0652004A4ED1 /* iPomodoro_macOS.entitlements */,
 			);
 			path = "iPomodoro-macOS";
@@ -228,7 +234,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D0C2B722182128D002CA924 /* LICENSE in Resources */,
 				6D20F99B217B0652004A4ED1 /* Assets.xcassets in Resources */,
+				6D0C2B732182128D002CA924 /* README.md in Resources */,
 				6D20F99E217B0652004A4ED1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
